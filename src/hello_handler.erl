@@ -1,20 +1,17 @@
 %%%-------------------------------------------------------------------
-%%% @author ricardorp
-%%% @copyright (C) 2018, <COMPANY>
+%%% @author richieva
+%%% @copyright (C) 2018, VA
 %%% @doc
 %%%
 %%% @end
 %%% Created : 08. jul 2018 10:57
 %%%-------------------------------------------------------------------
 -module(hello_handler).
--behaviour(cowboy_http_handler).
+-behaviour(cowboy_handler).
 -author("richieva").
 
 %% API
 -export([init/2]).
-
--record(state, {
-}).
 
 init(Req0, State) ->
     Method = cowboy_req:method(Req0),

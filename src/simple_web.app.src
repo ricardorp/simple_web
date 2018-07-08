@@ -11,7 +11,7 @@
         {env, []},
         {modules, [simple_web_app, simple_web_sup, hello_handler]},
 
-        {maintainers, ["Richie AV"]},
+        {maintainers, ["Richie VA"]},
         {licenses, ["Apache 2.0"]},
-        {links, []}
+        {links, [{"Github", "https://github.com/ricardorp/simple_web"}]}
     ]}.
