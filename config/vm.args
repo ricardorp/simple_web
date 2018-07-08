@@ -1,0 +1,6 @@
+-sname simple_web
+
+-setcookie simple_web_cookie
+
++K true
++A30
